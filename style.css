@@ -14,7 +14,7 @@ background: linear-gradient(90deg, rgba(62,172,228,0.6194852941176471) 34%, rgba
 display: flex;
 flex-direction: column;
 justify-content: space-evenly;
-border-radius:20px ;
+border-radius:20px;
 }
 
 p{
@@ -32,7 +32,7 @@ top:50px;
 position:relative;
 }
 
-article::before{
+main::before{
     content:"";
     background-color: white;
     width: 490px;
@@ -45,7 +45,7 @@ article::before{
     right:-170px;
 }
 
-article::after{
+main::after{
 content:" ";
 background-color: white;
 width: 490px;
